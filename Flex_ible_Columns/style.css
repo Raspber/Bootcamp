@@ -42,4 +42,5 @@
     width: 60%;
     padding: 20px;
     margin: 10px;
-}
+    justify-content: ;
+    flex-direction: column-reverse
