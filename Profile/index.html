@@ -10,6 +10,7 @@
     <title>Profile</title>
 </head>
 <body>
+    <!-- nav bar -->
     <nav>
         <ul id="box1">
             <li><a class="active" href="#home">Profile</a></li>
@@ -21,12 +22,17 @@
             <button id="signOut" href="#" >Sign Out</button>
         </div>
     </nav>
+    <!-- frame -->
     <div class="frame">
+        <!-- left side -->
         <div class="left">
+            <!-- top left side -->
             <div id="user">
+                <!-- top box -->
                 <div id="top">
                     <img  id="profilePic" src="icons/profile.png" alt="Profil Picture">
                 </div>
+                <!-- bottom box -->
                 <div id="bottom">
                     <h1> Hauvert Pacheco</h1>
                     <div id="pin">
@@ -43,21 +49,94 @@
                         <img id="gear" src="icons/Setting_64px.png" alt="Map">
                             <a href="" id="settings"> 
                             Edit Profile
-                            </p>
+                            </a>
                     </div>
                 </div>
             </div>
+            <!-- bottom left -->
             <div id="education">
+                <!-- bottom top -->
                 <div id="top">
                     <h2 id="education1">Education</h2>
                 </div>
-                <div id="bottom">
-                    <p id="edu"> Coding Dojo|Full Stack Bootcamp</p>
+                <!-- bottom bottom -->
+                <div id="bottom1">
+                    <ul class="listbox">
+                        <li id="schooling">Coding Dojo|Full Stack Bootcamp.
+                            <p id="inlines">- Dec 2021 - March 2022</p>
+                        </li>
+                        <li id="schooling">Tripple black belt.
+                            <p id="inlines">- Python, Mern, and C++</p>
+                        </li>
+                        <li id="schooling">Graphic Design
+                            <p id="inlines">-Adobe Illustrator and Photoshop. </p>
+                        </li>
+                    </ul>
                 </div>
             </div>  
         </div>
-            <!-- <div id="user"></div> -->
-        <div class="right"></div>
+        <!-- Left Side -->
+        <div class="leftcontainer">
+            <div class="connectionrequest">
+                <div id="topbar">
+                    <p id="dos">2</p> 
+                    <p id="connect">Connection Requests</p>
+                </div>
+                    
+                <div id="bottomcolumn">
+                    <div id="add1">
+                        <img id="todd" src="images/todd-s.jpg" alt="Friend Request">
+                        <p id="name">Todd E.</p>
+                        <img id="add" src="icons/Add Friends_64px.png" alt="Add Friend">
+                        <img id="add" src="icons/Remove Friend_64px.png" alt="Add Friend">
+                    </div> 
+                    <div id="add2">
+                        <img id="todd" src="images/phil-s.jpg" alt="Friend Request">
+                        <p id="name">Phil E.</p>
+                        <img id="add" src="icons/Add Friends_64px.png" alt="Add Friend">
+                        <img id="add" src="icons/Remove Friend_64px.png" alt="Add Friend">
+                    </div>
+                </div>
+            </div>
+            <div class="yourconnections"></div>
+            <div class="connectionfriends">
+                <div id="topbar">
+                    <p id="popo">500+</p> 
+                    <p id="connect">Your Connections</p>
+                </div>
+                <div id="friends">
+                    <div id="add1">
+                        <img id="todd" src="images/adrien-s.jpg" alt="Friend Request">
+                        <p id="name">Adrian D</p>
+                        <img id="add" src="icons/Chat_64px.png" alt="Add Friend">
+                        <img id="add" src="icons/Picture_64px.png" alt="Add Friend">
+                    </div> 
+                    <div id="add1">
+                        <img id="todd" src="images/anne-s.jpg" alt="Friend Request">
+                        <p id="name">Anne J</p>
+                        <img id="add" src="icons/Chat_64px.png" alt="Add Friend">
+                        <img id="add" src="icons/Picture_64px.png" alt="Add Friend">
+                    </div> 
+                    <div id="add1">
+                        <img id="todd" src="images/adrien-s.jpg" alt="Friend Request">
+                        <p id="name">Adrian D</p>
+                        <img id="add" src="icons/Chat_64px.png" alt="Add Friend">
+                        <img id="add" src="icons/Picture_64px.png" alt="Add Friend">
+                    </div> 
+                </div>
+            </div>
+            <div class="yourconnections"></div>
+        </div>
     </div>
 </body>
 </html>
+
+
+background-color: rgb(238, 221, 153);
+border: 3px solid gainsboro;
+width: 100%;
+box-shadow: 6px 6px rgb(118, 118, 83);
+height:205px;
+border-radius: 50px;
+margin: 20px auto 25px;;
+/* display:flex; */
