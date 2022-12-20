@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Patua One', cursive;
+}
+
+nav{
+    background-color: rgb(166, 192, 201);
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 55px;
+    min-width: min-content;
+    width: 800px;
+    box-shadow: 0px 2px black;
+}
+
+.logo{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    
+}
+
+
+.imglogo{
+    height: 40px;
+    padding-right: 5px;
+}
+
+#dojonary{
+    color: rgb(49, 63, 118);
+    /* text-shadow: 2px 2px rgb(255, 255, 255); */
+    outline: ;
+}
+
+
+#frame{
+    width: 800px;
+    /* background-color: rgb(166, 192, 201); */
+    height: 1000px;
+    margin: 0 auto;
+    /* display: flex; */
+    
+    
+}
+
+#leftside{
+    width: 80%;
+    height: 300px;
+    background-color: blue;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+#box1, #box2, #box3{
+    background-color: rgb(166, 192, 201);
+    border: 2px solid black;
+    height: 250px;
+    width: 100px;
+    margin: 10px;
+}
+
+#rightside{
+    width: 20%;
+    height: 250px;
+    background-color: blue;
+}
+
+#box2{
+    background-color: azure;
+    margin-top: 26px;
+
+}
