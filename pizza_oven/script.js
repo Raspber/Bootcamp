@@ -2,8 +2,6 @@
 
 
 
-
-
 function pizzaOven(crustType, sauceType, cheeses, toppings) {
     var pizza = {};
     pizza.crustType = crustType;
