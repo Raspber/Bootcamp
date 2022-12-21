@@ -19,19 +19,40 @@
         </div>
         <form class="searchbar" action="#">
             <input type="text" placeholder= "Search" name="search">
-            <button type="submit"><i class="fa fa-search"><</i></button>
+            <!-- <button  id="search" type="submit"><i class="fa-fa-search"><img src="imgs/icons/Search_64px.png" alt="Search Button"></i></button> -->
         </form>
-        <button id="login_logout">Login</button>
+        <button id="login_logout" onclick="signout(this)">Login</button>
     </nav>
-    <div id="frame">
-        <aside id="leftside">
-            <box class="box1" ></box>
-            <box class="box2"></box>
-        </aside>
-
-        <aside id="rightside">
-            <box class="box3"></box>
-        </aside>
+    <div id="container">
+        <div id="leftside">
+            <div class="box1" >
+                <div id="topninjaleft">
+                    <div id="flex">
+                        <h1>ninja</h1>
+                        <p>ninja</hp>
+                        <p>Plural: ninjas</p>
+                        <button id="likes" onclick="Alert()">Likes</button>
+                    </div>
+                </div>
+                <p>A Practitioner in the <a href="#">Japanese</a> art of <a href="#">ninjutsu </a></p>
+            </div>
+            <div class="box2">
+                <div id="bottomninjaleft">
+                    <div id="flex">
+                        <h1>ninja</h1>
+                        <p>ninja</hp>
+                        <p>Plural: ninjas</p>
+                        <button id="likes" onclick="Alert()">likes</button>
+                    </div>
+                </div>
+                <p>A Practitioner in the <a href="#">Japanese</a> art of <a href="#">ninjutsu </a></p>
+            </div>
+        </div>
+        <div id="rightside">
+            <box class="box3">
+                <h2 id="defined">Dojonary is defined by <strong>Y O U!</strong></h2>
+                <button id="add_definition" onclick="hide(this)">Add Definition</button>
+        </div>
     </div>
     
     

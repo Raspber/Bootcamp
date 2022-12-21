@@ -11,9 +11,13 @@ nav{
     justify-content: space-between;
     height: 55px;
     min-width: min-content;
-    width: 800px;
-    box-shadow: 0px 2px black;
+    width: 750px;
+    box-shadow: 0px 4px rgb(49, 63, 118);
+    padding: .5rem;
+    align-items: center;
 }
+
+
 
 .logo{
     display: flex;
@@ -22,10 +26,14 @@ nav{
     
 }
 
+#seach{
+    height: 25px;
+}
 
 .imglogo{
     height: 40px;
     padding-right: 5px;
+    
 }
 
 #dojonary{
@@ -35,40 +43,113 @@ nav{
 }
 
 
-#frame{
+#container{
     width: 800px;
     /* background-color: rgb(166, 192, 201); */
-    height: 1000px;
+    
     margin: 0 auto;
-    /* display: flex; */
+    display: flex;
     
     
 }
 
 #leftside{
-    width: 80%;
-    height: 300px;
-    background-color: blue;
+    width: 60%;
+    padding: 10px;
     margin-top: 30px;
     justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-#box1, #box2, #box3{
-    background-color: rgb(166, 192, 201);
-    border: 2px solid black;
-    height: 250px;
-    width: 100px;
-    margin: 10px;
-}
 
 #rightside{
-    width: 20%;
+    width: 40%;
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
     height: 250px;
-    background-color: blue;
 }
 
-#box2{
-    background-color: azure;
-    margin-top: 26px;
-
+.box1, .box2, .box3{
+    border: 5px solid rgb(49, 63, 118);
+    padding: 10px;
+    margin: 5px;
+    border-radius: ;
+    
+    
 }
+
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#defined{
+    color: rgb(49, 63, 118);
+    font-size: 30px;
+    margin: 5px;
+}
+
+#add_definition{
+    align-content: center;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+    font-size: 16px;
+    box-shadow: 4px 4px rgb(49, 63, 118);
+    /* border: 2px solid rgb(49, 63, 118); */
+    color: rgb(49, 63, 118);
+}
+
+
+
+#topninjaleft,#bottomninjaleft{
+    display: flex;
+    background-color: rgb(180, 178, 182);
+    width: 35%;
+    height:inherit;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#topninjaleft{
+    align-items: ;
+    padding: 10px;
+}
+
+#flex{
+    padding: 5px;
+    color: rgb(49, 63, 118);
+    font-size: 21px;
+    text-align: center;
+    align-content: space-around;
+    align-self: auto;    
+}
+
+
+#likes{
+    align-content: center;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    font-size: 16px;
+    box-shadow: 4px 4px rgb(49, 63, 118);
+    /* border: 2px solid rgb(49, 63, 118); */
+    color: rgb(49, 63, 118);
+}
+
