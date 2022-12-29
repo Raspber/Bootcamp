@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Llikes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Nav -->
+    <div id="block">
+        <h1>Network</h1>
+    </div>
+    <!-- Your Feed -->
+    <p id="yourfeed">Your Feed
+    <p>
+        <!--  Container -->
+    <div id="container">
+        <!-- left side of frame -->
+        <div id="leftframe">
+            <div id="left-box">
+                <img width="75px" id="profile" src="icons/Profile.png" alt="Profile Picture">
+                <p><a href="" id="add-avatar"> add avatar</a></p>
+                <h2 class="james">James Doe</h2>
+            </div>
+
+        </div>
+        <!-- right side of frame -->
+        <div id="rightframe">
+            <div class="people">
+                <div class="tophalf">
+                    <h3 class="name">Neil M</h3>
+                    <div class="likes">
+                        <p id="count">0 Like(s)</p>
+                        <button id="likebtn" onclick="add1()">Like</button>
+                    </div>
+                </div>
+                <div class="bottomhalf">
+                    <p>I just set up this new discord bot, let me know what ya'll think?</p>
+                    <a href="">Link</a>
+                </div>
+
+            </div>
+            <div class="people">
+                <div class="tophalf">
+                    <h3 class="name">Nichole K</h3>
+                    <div class="likes">
+                        <p id="count2">0 Like(s)</p>
+                        <button id="likebtn" onclick="add2()">Like</button>
+                    </div>
+                </div>
+                <div class="bottomhalf">
+                    <p>Just finished my next <a href="">comic</a>, check it out</p>
+                </div>
+            </div>
+            <div class="people">
+                <div class="tophalf">
+                    <h3 class="name">Jim R</h3>
+                    <div class="likes">
+                        <p id="count3">0 Like(s)</p>
+                        <button id="likebtn" onclick="add3()">Like</button>
+                    </div>
+                </div>
+                <div class="bottomhalf">
+                    <p>I cant stop listening to the <a href="">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

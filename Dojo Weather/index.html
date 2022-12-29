@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');</style>
+    <title>Dojo Weather</title>
+</head>
+
+<body>
+    <!-- NAV BOX -->
+    <nav>
+        <div class="navbox">
+            <h1>DojoWeather</h1>
+            <ul id="cities">
+                <li><a href="#" onclick="cityweatheralertburbank(this)">Burbank</a></li>
+                <li><a href="#" onclick="cityweatheralertchicago(this)">Chicago</a></li>
+                <li><a href="#" onclick="cityweatheralertdallas(this)">Dallas</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+<!-- CONTAINER -->
+    <div id="container">
+        
+        <!-- CITY -->
+        <div id="citybox">
+            <h2 id="cityname">San Jose</h2>
+            <div id="tempselectorbox">
+                <label>Show temperature in</label>
+                <select name="tempselector" id="tempselector">
+                    <option onclick="">°F</option>
+                    <option>°C</option>
+                </select>
+            </div>
+        </div>
+        <!-- WEATHER -->
+        <div id="weatherbox">
+            <div class="daybox">
+                <h3>Today</h3>
+                <img src="weather_icons/png/512/04---Rainy.png" alt="rainy">
+                <p>Rainy</p>
+            </div>
+            <div class="daybox">
+                <h3>Tomorrow</h3>
+                <img  src="weather_icons/png/512/sunny.png" alt="sunny">
+                <p>Sunny</p>
+            </div>
+            <div class="daybox">
+                <h3>Friday</h3>
+                <img src="weather_icons/png/512/26---Cloudy.png" alt="cloudy">
+                <p>Cloudy</p>
+            </div>
+            <div class="daybox">
+                <h3>Saturday</h3>
+                <img src="weather_icons/png/512/sunny.png" alt="sunny">
+                <p>Sunny</p>
+            </div>
+        </div>
+        <!-- COOKIE ALERT BOX -->
+        <div id="cookiealert">
+            <div id="cookietitlebox">
+                <h3>Stop! Cookie time</h3>
+            </div>
+            <div id="cookiemsg">
+                <img id="cookie"  src="weather_icons/cookie.png" alt="cookies">
+                <p id="cookietxt">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <span> <a href="#">Read more...</a> </span></p>
+                <button onclick="accept()">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
