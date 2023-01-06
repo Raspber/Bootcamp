@@ -1,0 +1,40 @@
+.nav{
+    background-color: dimgray;
+    height: 80px;
+    width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: white;
+    
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    width: 50%;
+    
+}
+.nav a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    padding: 12px;
+}
+
+.btn{
+    border-radius: 25px;
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+    background-color: darkturquoise;
+    border: 2px solid rgb(1, 154, 157);
+    box-shadow: 4px 4px rgb(65, 116, 117);
+    color: white;
+}

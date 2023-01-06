@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#block {
+    background-color: black;
+    height: 50px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+
+#yourfeed {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 35px;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+#rightside {
+    background-color: blanchedalmond;
+    width: 500px;
+    display: flex;
+
+}
+
+#leftside {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    padding:10px;
+    margin: 50px;
+    border: 2px solid black;
+    outline: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#boxbox {
+    margin: 5px;
+    text-align: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#addavatar{
+    width: 50px;
+    font-size: 12px;
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#profile{
+    width: 75px;
+    background-color: white;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 5px;
+}
+#box {
+    /* background-color: azure; */
+    outline: 2px solid black;
+    width: 400px;
+    display: ;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#tophalf {
+    height: 20%;
+    justify-content: space-between;
+    display: flex;
+    
+
+}
+
+h2{
+    display: flex;
+    font-size: 30px;
+    width: 50%;
+    display: flex;
+
+}
+
+#neil{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+#bottomhalf {
+    height: 40%;
+    display: flex;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+#likebtn {
+    width: 50px;
+    box-shadow: 2px 2px black;
+    background-color: rgb(255, 213, 0);
+    padding: 2px;
+
+}

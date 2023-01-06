@@ -1,0 +1,120 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(4, 180, 255);
+    color: white;
+    
+}
+
+.navbox{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+    align-items: center;
+    padding: 5px;
+}
+
+#cities{
+    display: flex;
+    gap: 30px;
+    font-size: 24px;
+    list-style: none;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    }
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+#citybox{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    color: rgb(2, 122, 173);
+    font-size: 18px;
+}
+
+#cityname{
+    font-size: 35px;
+}
+
+#tempselector{
+    color: rgb(2, 122, 173);
+}
+
+#weatherbox{
+    display: flex;
+    width: 100%;
+    border-top: 3px solid rgb(4, 180, 255);
+    justify-content: space-between;
+}
+
+.daybox{
+    background-color: rgb(248, 248, 248);
+    width: 300px;
+    color: rgb(2, 122, 173);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    font-size: 21px;   
+}
+h3{
+    padding: 10px;
+}
+p{
+    font-size: 18px;
+    padding: 10px;
+}
+
+img{
+    padding: 10px;
+    height: 150px;
+}
+#cookiealert{
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    border: 3px solid black;
+    justify-content: center;
+}
+#cookietitlebox{
+    width: 100%;
+    color: rgb(173, 48, 2);
+    text-shadow: 1px 1px rgb(168, 168, 168);
+    padding-top: 10px;
+}
+
+#cookiemsg{
+    display: flex;
+    color: rgb(2, 92, 131);
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#cookie{
+    height: 50px;
+}
+
+#cookietxt{
+    width: 60%;
+}
